@@ -23,7 +23,7 @@ struct ContentView: View, ContactableProtocal {
                 )
                 .shadow(radius: 3)
                 .onTapGesture {
-                    self.call(phoneNumber: customerVM.phoneNumber)
+                    self.contact(method: .phone(self.customerVM.phoneNumber))
                 }
             
             // Email Customer
@@ -36,7 +36,7 @@ struct ContentView: View, ContactableProtocal {
                 )
                 .shadow(radius: 3)
                 .onTapGesture {
-                    self.email(emailAddress: customerVM.emailAddress)
+                    self.contact(method: .email(self.customerVM.emailAddress))
                 }
         }
     }
