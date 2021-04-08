@@ -8,6 +8,8 @@
 import Foundation
 
 struct Customer {
+    let firstName: String = ""
+    let lastName: String = ""
     let prhoneNumber: String = "1234567890"
     let emailAddress: String = "eamil@email.com"
 }

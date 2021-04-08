@@ -13,6 +13,7 @@
 		CD415F3E261E8FF6007D7030 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD415F3D261E8FF6007D7030 /* Preview Assets.xcassets */; };
 		CD415F4C261E916A007D7030 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD415F4B261E916A007D7030 /* CustomerModel.swift */; };
 		CD415F4F261E91A0007D7030 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD415F4E261E91A0007D7030 /* CustomerViewModel.swift */; };
+		CD415F54261E9589007D7030 /* ContactableProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD415F53261E9589007D7030 /* ContactableProtocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD415F3F261E8FF6007D7030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD415F4B261E916A007D7030 /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
 		CD415F4E261E91A0007D7030 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
+		CD415F53261E9589007D7030 /* ContactableProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactableProtocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CD415F46261E912F007D7030 /* View */,
 				CD415F47261E9139007D7030 /* ViewModel */,
 				CD415F48261E9144007D7030 /* Model */,
+				CD415F52261E9489007D7030 /* Protocal */,
 				CD415F3A261E8FF6007D7030 /* Assets.xcassets */,
 				CD415F3F261E8FF6007D7030 /* Info.plist */,
 				CD415F3C261E8FF6007D7030 /* Preview Content */,
@@ -97,6 +100,14 @@
 				CD415F4B261E916A007D7030 /* CustomerModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CD415F52261E9489007D7030 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				CD415F53261E9589007D7030 /* ContactableProtocal.swift */,
+			);
+			path = Protocal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD415F54261E9589007D7030 /* ContactableProtocal.swift in Sources */,
 				CD415F4F261E91A0007D7030 /* CustomerViewModel.swift in Sources */,
 				CD415F4C261E916A007D7030 /* CustomerModel.swift in Sources */,
 				CD415F39261E8FF3007D7030 /* ContentView.swift in Sources */,
